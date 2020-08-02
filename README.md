@@ -1,4 +1,4 @@
-# machine-learning-101
+# machine-learning
 A repository related to datasets for Machine Learning.
 
 Link to tutorial blogs:
