@@ -4,7 +4,6 @@ from collections import Counter
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 
-
 def make_Dictionary(root_dir):
     all_words = []
     emails = [os.path.join(root_dir,f) for f in os.listdir(root_dir)]
@@ -24,8 +23,6 @@ def make_Dictionary(root_dir):
     dictionary = dictionary.most_common(3000)
 
     return dictionary
-
-
 
 def extract_features(mail_dir):
     files = [os.path.join(mail_dir,fi) for fi in os.listdir(mail_dir)]
