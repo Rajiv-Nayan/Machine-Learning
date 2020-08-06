@@ -6,7 +6,6 @@ import matplotlib
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 
-
 def make_Dictionary(root_dir):
     all_words = []
     emails = [os.path.join(root_dir,f) for f in os.listdir(root_dir)]
@@ -26,7 +25,6 @@ def make_Dictionary(root_dir):
     dictionary = dictionary.most_common(3000)
 
     return dictionary
-
 
 
 def extract_features(mail_dir):
