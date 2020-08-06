@@ -4,7 +4,6 @@ from collections import Counter
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-
 import cPickle
 import gzip
 
