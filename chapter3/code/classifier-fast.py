@@ -44,7 +44,6 @@ def make_Dictionary(root_dir):
     return dictionary
 
 
-
 def extract_features(mail_dir):
     files = [os.path.join(mail_dir,fi) for fi in os.listdir(mail_dir)]
     features_matrix = np.zeros((len(files),3000))
