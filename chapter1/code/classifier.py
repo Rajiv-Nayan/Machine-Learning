@@ -51,7 +51,6 @@ def extract_features(mail_dir):
     return features_matrix, train_labels
 
 
-
 TRAIN_DIR = "../train-mails"
 TEST_DIR = "../test-mails"
 
