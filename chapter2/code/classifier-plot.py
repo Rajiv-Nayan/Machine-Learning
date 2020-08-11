@@ -78,7 +78,6 @@ print accuracy_score(test_labels, predicted_labels)
 
 
 
-
 h = .02  # step size in the mesh
 
 # we create an instance of SVM and fit out data. We do not scale our
